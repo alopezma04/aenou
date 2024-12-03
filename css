@@ -1,0 +1,83 @@
+/* Importa la tipografía Source Sans Pro Variable desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:opsz,wght@8..144,200..900&display=swap');
+
+/* Aplicar estilo global */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Negrita */
+    margin: 20px 0 10px;
+    color: #222;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900; /* Extra Bold */
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800; /* Semi Extra Bold */
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 700; /* Bold */
+}
+
+/* Texto del párrafo */
+p {
+    font-size: 1rem;
+    font-weight: 400; /* Regular */
+    margin: 10px 0;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500; /* Medium */
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Botones */
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 600; /* Semi-Bold */
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de bloques destacados */
+blockquote {
+    font-size: 1.25rem;
+    font-weight: 300; /* Light */
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f0f8ff;
+}
+
